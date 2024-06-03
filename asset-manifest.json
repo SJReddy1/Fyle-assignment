@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Fyle-assignment/static/css/main.8d46615c.css",
-    "main.js": "/Fyle-assignment/static/js/main.e42d32c0.js",
+    "main.js": "/Fyle-assignment/static/js/main.ebee4dc7.js",
     "static/media/image2.jpg": "/Fyle-assignment/static/media/image2.8a0c7a4904f77bbee103.jpg",
     "static/media/image.png": "/Fyle-assignment/static/media/image.97a89700e50cd1065041.png",
     "static/media/hero.png": "/Fyle-assignment/static/media/hero.414e5ec43fd4a0e6bf96.png",
@@ -22,10 +22,10 @@
     "static/media/Path 4402.svg": "/Fyle-assignment/static/media/Path 4402.97b991815dabd433bc8c.svg",
     "static/media/NoPath - Copy.svg": "/Fyle-assignment/static/media/NoPath - Copy.fe74e295fc4ed4a9e1a6.svg",
     "main.8d46615c.css.map": "/Fyle-assignment/static/css/main.8d46615c.css.map",
-    "main.e42d32c0.js.map": "/Fyle-assignment/static/js/main.e42d32c0.js.map"
+    "main.ebee4dc7.js.map": "/Fyle-assignment/static/js/main.ebee4dc7.js.map"
   },
   "entrypoints": [
     "static/css/main.8d46615c.css",
-    "static/js/main.e42d32c0.js"
+    "static/js/main.ebee4dc7.js"
   ]
 }
