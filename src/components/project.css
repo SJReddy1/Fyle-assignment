@@ -1,0 +1,68 @@
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.ourproj {
+    margin-top: 30px;
+    font: normal normal 600 24px/26px Cormorant SC;
+    color: #FF3147;
+    text-transform: uppercase;
+}
+
+.whyb {
+    margin-top: 20px;
+    font: normal normal bold 45px/65px Cormorant SC;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.img-proj {
+    width: 600px; /* Increase the width */
+    height: 600px; /* Increase the height */
+    background-size: cover; /* Ensure the image covers the div */
+    background-position: center; /* Center the background image */
+}
+
+.proj-tiles {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.proj-slide {
+    width: 370px;
+    height: 189px;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.proj-slide.active {
+    background: #FF3147 0% 0% no-repeat padding-box;
+    color: white;
+}
+
+.slide-head {
+    font: normal normal medium 20px/80px Poppins;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.content-proj {
+    font: normal normal normal 16px/28px Poppins;
+    margin: 10px;
+}

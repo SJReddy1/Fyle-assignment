@@ -1,0 +1,63 @@
+.feedback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.clientheading {
+    width: 100%;
+    font: normal normal 600 24px/26px Cormorant SC;
+    color: #FF3147;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.people {
+    width: 100%;
+    font: normal normal bold 45px/65px Cormorant SC;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.content {
+    width: 60%;
+    font: normal normal normal 20px/34px Poppins;
+    color: #000000;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.imgcon-container {
+    width: 64px;
+    height: 45px;
+    background: transparent url('images/Quotemarks-left.svg') no-repeat center center;
+    position: absolute;
+    top: -20px; /* Align to the top of the content */
+    
+    left: -35px; /* Adjust this value to position it correctly */
+    z-index: 1; /* Ensure the image is above the content */
+}
+
+.name-des-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Add space between name and designation */
+}
+
+.name-container {
+    font: normal normal bold 20px/34px Poppins;
+    color: #FF3147;
+}
+
+.des-container {
+    font: normal normal 300 20px/34px Poppins;
+    color: #808080;
+}

@@ -1,0 +1,87 @@
+.growth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.expert-container {
+    width: 100%;
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.company-container {
+    width: 100%;
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.tile-container {
+    width: 270px;
+    height: 233px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+}
+
+.tile-container:hover {
+    box-shadow: 0 10px 30px rgba(103, 44, 44, 0.5);
+    transform: translateY(-10px);
+    background-color: #f9f9f9;
+}
+
+.heart, .clock, .tick, .winimage {
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.heart {
+    background-image: url('images/heart (2).svg');
+}
+
+.clock {
+    background-image: url('images/clock (3).svg');
+}
+
+.tick {
+    background-image: url('images/Path 4402.svg');
+}
+
+.winimage {
+    background-image: url('images/Path 4406.svg');
+}
+
+.val1, .val2, .val3, .val4 {
+    font: normal normal 300 60px/65px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.sc, .do, .pro, .wina {
+    font: normal normal 300 20px/80px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+}
